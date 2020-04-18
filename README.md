@@ -6,7 +6,7 @@
 - Unzip the 2 files
 - Upload the 2 folders (log_data & song_data) to an S3 bucekt
 
-2. Update the 'dwh.cfg' file:
+2. Update the 'dl.cfg' file:
 - Add in your AWS KEY
 - Add in your AWS SECRET
 - Add in your S3_BUCKET name in which the data is stored
