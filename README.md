@@ -1,11 +1,17 @@
 # Data Lake Design Using AWS S3, AWS EMR & PySpark
+![Apache Spark](./img/apache_spark.png)
 ## Quickstart:
-1. Update the 'dwh.cfg' file:
+1. Access to data:
+- Download data from 'data' file
+- Unzip the 2 files
+- Upload the 2 folders (log_data & song_data) to an S3 bucekt
+
+2. Update the 'dwh.cfg' file:
 - Add in your AWS KEY
 - Add in your AWS SECRET
-- Add in the other fields for INPUT_LOG_DATA, INPUT_SONG_DATA and OUTPUT_DATA
+- Add in your S3_BUCKET name in which the data is stored
 
-2. Run the following command in the CLI:
+3. Run the following command in the CLI:
 - 'python etl.py' to extract, transform and load the data from AWS S3 via AWS EMR cluster and saved back into S3.
 
 ### Requirements
